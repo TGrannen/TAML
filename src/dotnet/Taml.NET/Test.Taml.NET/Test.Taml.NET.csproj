@@ -27,6 +27,9 @@
 		<None Update="GivenChildArrays\childarrays.taml">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
+		<None Update="GivenComplexChildDocument\sample2.taml">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 		<None Update="GivenComplexChildDocument\sample1.taml">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
@@ -44,6 +47,15 @@
 		</None>
 		<None Update="GivenKeyValuePairsWithArray\arrayfirst.taml">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Spec_1-1\GivenComments\simple.taml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Spec_1-1\GivenParserDirectives\singleTerm.taml">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Spec_1-1\GivenParserDirectives\simple.taml">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
 
